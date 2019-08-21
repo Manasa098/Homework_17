@@ -1,0 +1,330 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+ width: 100%;
+ margin: 0 auto;
+   
+}
+nav {
+    background: white;
+}
+nav a {
+    color: rgb(49, 49, 49)
+}
+nav ul {
+    list-style-type: none;
+    padding: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 25px;
+}
+Nav a:hover {
+    text-decoration: underline;
+    color: rgb(104, 10, 80);
+    transition: .2s;
+    transform: scale(1.1);
+
+}
+.mylogo {
+    padding-left: 15px;
+    width: 70px;
+}
+.navigation ul {
+    display: flex;
+    margin: auto;
+}
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin-right: 15px;
+    width: 10%;
+    height: 40px;
+    background: linear-gradient(90deg, rgb(138, 6, 131) 0%, rgb(48, 1, 58) 100%);
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;    
+}
+button:hover {
+    transition: .2s;
+    transform: scale(1.1);
+}
+.navigation .mylogo {
+    display: flex;
+}
+.aboutme {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 50px;
+}
+.aboutme div {
+    padding: 30px;
+    background: white;
+    margin: 0px;
+}
+.profilepic img {
+    width: 300px;
+    border: 2px solid black;
+    opacity: 1;
+}
+.profilepic img:hover {
+    opacity: 1;
+}
+.me h1 {
+    text-align: center;
+    color: rgb(46, 46, 46);
+}
+.me p {
+    text-align: left;
+    line-height: 1.8;
+    
+}
+hr {
+    width: 1050px;
+    margin-top: 50px;
+}
+.qualities h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.three img {
+    width: 175px;
+    padding: 90px;
+    padding-top: 30px; 
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text h2 {
+    margin: 90px;
+    text-align: center;
+    width: 175px;
+    margin-top: -25px;
+    color: rgb(104, 10, 80);
+}
+.qualities p {
+    text-align: center;
+    margin-top: -15px;
+}
+.projects {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 50px;
+}
+.projects2 {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 50px;
+}
+
+.projects h1 {
+    text-align: center;
+}
+.sfenv img {
+    width: 700px;
+}
+.projects3 {
+    display: grid;
+    max-width: 1000px;
+    margin: auto;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 50px;
+}
+.bcs img {
+   width: 550px; 
+}
+.footer {
+    background: linear-gradient(90deg, rgb(138, 6, 131) 0%, rgb(48, 1, 58) 100%);
+    height: 200px;
+    margin-top: 50px;
+       
+}
+
+.footer h1 {
+    color: white;
+}
+.social {
+    width: 30px;
+    margin: 0 auto;
+    padding: 40px;
+    padding-top: 0px;
+}
+.footer a:hover {
+    opacity: 0.5;
+  } 
+.footer h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.footer_social {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.footer_social a {
+    margin-top: 0px;
+}
+.myprojects h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+.foodiago_desc h1 {
+    text-align: left;
+}
+.sfenvironment h1 {
+    text-align: left;
+}
+.foodiago_desc a {
+    animation: float 3s ease-in-out infinite; 
+    box-shadow:  0px 2px 4px 10px rgb(207, 194, 205);
+    text-decoration: none;
+    color: rgb(104, 10, 80);
+}
+.foodiago_desc a:hover {
+    text-decoration: underline
+}
+.sfenvironment a {
+    animation: float 3s ease-in-out infinite; 
+    box-shadow:  0px 2px 4px 10px rgb(207, 194, 205);
+    text-decoration: none;
+    color: rgb(104, 10, 80);
+}
+.sfenvironment a:hover {
+    text-decoration: underline;
+}
+.bcs_desc a {
+    animation: float 3s ease-in-out infinite; 
+    box-shadow:  0px 2px 4px 10px rgb(207, 194, 205);
+    text-decoration: none;
+    color: rgb(104, 10, 80);
+}
+.bcs_desc a:hover {
+    text-decoration: underline;
+}
+.three img:hover {
+    transition: .3s;
+    transform: scale(1.2);
+}
+.qualities h1 {
+    color: rgb(46, 46, 46);
+}
+.myprojects h1 {
+   color: rgb(46, 46, 46);
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(0px);
+        box-shadow:  0 5px 5px 0 rgba(223, 223, 223, 0.329);
+    }
+    100% {
+        transform: translateY(0px);
+        box-shadow:  0 5px 5px 0 rgba(0,0,0,0.1);
+    }
+}
+@media only screen and (max-device-width: 480px) {
+
+    nav a{
+        padding: 25px;
+        font-size: 45px;
+    }
+    button {
+        font-size: 25px;
+        width: 15%;
+        height: 60px;
+    }
+    .aboutme {
+      grid: none;
+      margin: auto;
+    }
+    .profilepic img {
+        width: 500px;
+    }
+    .aboutme .profilepic {
+        margin: auto;
+    }
+    .me p {
+        font-size: 15px;
+    }
+    .qualities p {
+        font-size: 15px;
+    }
+    .projects {
+        grid: none;
+    }
+    
+    .foodiago img {
+        width: 100%;
+    }
+    .projects .foodiago {
+        margin: auto;
+    }
+    .projects .foodiago_desc {
+        margin: auto;
+        text-align: center;
+    }
+    .foodiago_desc h1 {
+        font-size: 18px;
+    }
+    .foodiago_desc p {
+        font-size: 15px;
+    }
+   .projects2 {
+       grid: none;
+       margin: auto;
+   }
+   .projects2 .sfenvironment {
+       margin: auto;
+       text-align: center;
+   }
+   .sfenvironment h1{
+       font-size: 18px;
+   }
+   .sfenvironment p {
+       font-size: 15px;
+   }
+   .sfenv img {
+       margin-top: 50px;
+   }
+   .projects2 .sfenv {
+       margin: auto;
+   }
+   .projects3 {
+       grid: none;
+   }
+ .projects3 .bcs {
+     margin: auto;
+     margin-top: 50px;
+ }
+ .projects3 .bcs_desc {
+     margin: auto;
+     text-align: center;
+ }
+ .footer {
+     margin-top: 50px;
+     height: 200px;
+ }
+}
